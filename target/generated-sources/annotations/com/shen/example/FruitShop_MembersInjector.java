@@ -14,20 +14,25 @@ public final class FruitShop_MembersInjector implements MembersInjector<FruitSho
 
   private final Provider<Fruit> orangeProvider;
 
-  public FruitShop_MembersInjector(Provider<Fruit> appleProvider, Provider<Fruit> orangeProvider) {
+  private final Provider<Fruit> pearProvider;
+
+  public FruitShop_MembersInjector(
+      Provider<Fruit> appleProvider, Provider<Fruit> orangeProvider, Provider<Fruit> pearProvider) {
     this.appleProvider = appleProvider;
     this.orangeProvider = orangeProvider;
+    this.pearProvider = pearProvider;
   }
 
   public static MembersInjector<FruitShop> create(
-      Provider<Fruit> appleProvider, Provider<Fruit> orangeProvider) {
-    return new FruitShop_MembersInjector(appleProvider, orangeProvider);
+      Provider<Fruit> appleProvider, Provider<Fruit> orangeProvider, Provider<Fruit> pearProvider) {
+    return new FruitShop_MembersInjector(appleProvider, orangeProvider, pearProvider);
   }
 
   @Override
   public void injectMembers(FruitShop instance) {
     injectApple(instance, appleProvider.get());
     injectOrange(instance, orangeProvider.get());
+    injectPear(instance, pearProvider.get());
   }
 
   public static void injectApple(FruitShop instance, Fruit apple) {
@@ -36,5 +41,9 @@ public final class FruitShop_MembersInjector implements MembersInjector<FruitSho
 
   public static void injectOrange(FruitShop instance, Fruit orange) {
     instance.orange = orange;
+  }
+
+  public static void injectPear(FruitShop instance, Fruit pear) {
+    instance.pear = pear;
   }
 }

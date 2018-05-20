@@ -4,11 +4,16 @@ com/shen/example/Main.class
 com/shen/example/di/DaggerFruitComponent.class
 com/shen/example/fruit/Apple.class
 com/shen/example/FruitShop.class
+com/shen/example/di/ProjectModule.class
+com/shen/example/di/Name.class
 com/shen/example/di/FruitComponent.class
 com/shen/example/fruit/Orange.class
+com/shen/example/di/FruitComponent$Builder.class
 com/shen/example/fruit/Apple_Factory.class
 com/shen/example/di/FruitType.class
 com/shen/example/fruit/Orange_Factory.class
+com/shen/example/fruit/Pear.class
+com/shen/example/di/ProjectModule_ProviderPearFactory.class
 com/shen/example/di/DaggerFruitComponent$Builder.class
 com/shen/example/fruit/Fruit.class
 com/shen/example/FruitShop_Factory.class
