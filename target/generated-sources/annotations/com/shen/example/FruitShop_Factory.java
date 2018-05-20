@@ -1,6 +1,7 @@
 package com.shen.example;
 
 import com.shen.example.fruit.Fruit;
+import dagger.internal.DoubleCheck;
 import dagger.internal.Factory;
 import javax.annotation.Generated;
 import javax.inject.Provider;
@@ -32,8 +33,8 @@ public final class FruitShop_Factory implements Factory<FruitShop> {
       Provider<Fruit> appleProvider, Provider<Fruit> orangeProvider, Provider<Fruit> pearProvider) {
     FruitShop instance = new FruitShop();
     FruitShop_MembersInjector.injectApple(instance, appleProvider.get());
-    FruitShop_MembersInjector.injectOrange(instance, orangeProvider.get());
-    FruitShop_MembersInjector.injectPear(instance, pearProvider.get());
+    FruitShop_MembersInjector.injectOrange(instance, orangeProvider);
+    FruitShop_MembersInjector.injectPear(instance, DoubleCheck.lazy(pearProvider));
     return instance;
   }
 

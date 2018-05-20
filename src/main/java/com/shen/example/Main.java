@@ -9,7 +9,7 @@ public class Main {
 //        for (int i=0; i<5; i++) {
             FruitShop fruitShop = DaggerFruitComponent
                     .builder()
-                    .cusPearName("cus pear")
+                    .cusPearName("cus_Pear")
                     .build()
                     .inject();
             System.out.println(fruitShop.createFruit());

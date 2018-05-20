@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7793a4a-a7b7-4a7d-b4df-6c7d30805ccc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Pear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop_Factory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop_MembersInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/FruitShop_MembersInjector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/di/DaggerFruitComponent$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/di/DaggerFruitComponent$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/di/DaggerFruitComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/di/DaggerFruitComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/di/FruitComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/di/FruitComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shen/example/di/FruitModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shen/example/di/FruitModule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/FruitShop_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/FruitShop_Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/FruitShop_MembersInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/FruitShop_MembersInjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,57 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FruitComponent.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
+      <file leaf-file-name="FruitType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstanceFactory.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.16/dagger-2.16.jar!/dagger/internal/InstanceFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FruitModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="231">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pear.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Pear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +37,8 @@
       <file leaf-file-name="ProjectModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
@@ -104,28 +48,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectModule_ProviderPearFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/ProjectModule_ProviderPearFactory.java">
+      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Apple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fruit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Fruit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Orange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaggerFruitComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java">
+      <file leaf-file-name="FruitComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pear.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Pear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -133,12 +100,21 @@
       <file leaf-file-name="FruitShop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="420">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -191,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjcetModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Pear.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" />
       </list>
     </option>
   </component>
@@ -407,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526823750592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add usage for @BindsInstance &amp; @Component.Builder">
+      <created>1526827466357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526827466357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -431,12 +414,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006142" side_tool="true" weight="0.32914045" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32985258" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" visible="true" weight="0.32914045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938574" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914045" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49938574" weight="0.28721175" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26535627" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26535627" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -481,8 +464,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="chore: update some class file" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update some class file" />
+    <MESSAGE value="feat: add usage for @BindsInstance &amp; @Component.Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add usage for @BindsInstance &amp; @Component.Builder" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/fruit/Apple_Factory.java">
@@ -705,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/ProjectModule_ProviderLogoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -722,31 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.16/dagger-2.16.jar!/dagger/internal/DoubleCheck.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Orange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -762,60 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/ProjcetModule_ProviderPearFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,21 +757,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Pear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Orange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/fruit/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,9 @@
 package com.shen.example;
 
 import com.shen.example.fruit.Fruit;
+import dagger.Lazy;
 import dagger.MembersInjector;
+import dagger.internal.DoubleCheck;
 import javax.annotation.Generated;
 import javax.inject.Provider;
 
@@ -31,19 +33,19 @@ public final class FruitShop_MembersInjector implements MembersInjector<FruitSho
   @Override
   public void injectMembers(FruitShop instance) {
     injectApple(instance, appleProvider.get());
-    injectOrange(instance, orangeProvider.get());
-    injectPear(instance, pearProvider.get());
+    injectOrange(instance, orangeProvider);
+    injectPear(instance, DoubleCheck.lazy(pearProvider));
   }
 
   public static void injectApple(FruitShop instance, Fruit apple) {
     instance.apple = apple;
   }
 
-  public static void injectOrange(FruitShop instance, Fruit orange) {
+  public static void injectOrange(FruitShop instance, Provider<Fruit> orange) {
     instance.orange = orange;
   }
 
-  public static void injectPear(FruitShop instance, Fruit pear) {
+  public static void injectPear(FruitShop instance, Lazy<Fruit> pear) {
     instance.pear = pear;
   }
 }
