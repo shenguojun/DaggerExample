@@ -7,10 +7,12 @@ import dagger.Binds;
 import dagger.Module;
 
 @Module
-public abstract class FruitModule {
+abstract public  class FruitModule {
+
     @Binds @FruitType("apple")
     abstract Fruit bindApple(Apple apple);
 
     @Binds @FruitType("orange")
     abstract Fruit bindOrange(Orange orange);
+
 }

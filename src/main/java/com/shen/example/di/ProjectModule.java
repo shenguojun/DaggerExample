@@ -12,4 +12,14 @@ public class ProjectModule {
     public Fruit providerPear(@Name String name) {
         return new Pear(name);
     }
+
+//    @Provides @Reusable
+//    public Desk provideDesk() {
+//        return new Desk();
+//    }
+//
+//    @Provides @IntoSet
+//    public String provideOneString() {
+//        return "abc";
+//    }
 }

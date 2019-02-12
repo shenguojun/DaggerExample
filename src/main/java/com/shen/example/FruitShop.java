@@ -3,31 +3,45 @@ package com.shen.example;
 
 import com.shen.example.di.FruitType;
 import com.shen.example.fruit.Fruit;
-import dagger.Lazy;
 
 import javax.inject.Inject;
-import javax.inject.Provider;
-import javax.inject.Singleton;
 
-@Singleton
 public class FruitShop {
 
     @Inject
     public FruitShop() {
-
     }
+
+//    @Inject
+//    Desk desk;
+//
+//    @Inject
+//    Desk desk2;
+
 
     @Inject @FruitType("apple")
     Fruit apple;
+//
+//    @Inject @FruitType("orange")
+//    Provider<Fruit> orange;
+//
+//    @Inject @FruitType("pear")
+//    Lazy<Fruit> pear;
 
-    @Inject @FruitType("orange")
-    Provider<Fruit> orange;
+//    public String createFruit() {
+//        return apple.name() + " " + orange.get().name() + " " + pear.get().name();
+//    }
 
-    @Inject @FruitType("pear")
-    Lazy<Fruit> pear;
+//    public String checkDesk() {
+//        return desk == desk2 ? "desk equal" : "desk not equal";
+//    }
 
-    public String createFruit() {
-        return apple.name() + " " + orange.get().name() + " " + pear.get().name();
-    }
+//    public String printStringSet() {
+//        StringBuilder sb = new StringBuilder();
+//        for (String s : strings) {
+//            sb.append(s);
+//        }
+//        return sb.toString();
+//    }
 
 }
