@@ -2,7 +2,6 @@ package com.shen.example;
 
 
 import com.shen.example.di.DaggerFruitComponent;
-import com.shen.example.di.DaggerJuiceComponent;
 
 public class Main {
 
@@ -13,17 +12,15 @@ public class Main {
 //            System.out.println(fruitShop.printStringSet());
 ////        }
 
-//        FruitShop fruitShop = DaggerFruitComponent
+        FruitShop fruitShop = DaggerFruitComponent
+                .create()
+                .inject();
+//        JuiceShop juiceShop = DaggerJuiceComponent
 //                .builder()
-//                .cusPearName("cus_Pear")
+//                .fruitComponent(DaggerFruitComponent.create())
 //                .build()
 //                .inject();
-        JuiceShop juiceShop = DaggerJuiceComponent
-                .builder()
-                .fruitComponent(DaggerFruitComponent.create())
-                .build()
-                .inject();
-        System.out.println(juiceShop.getJuice());
+        System.out.println(fruitShop.juice());
 
     }
 }

@@ -1,10 +1,15 @@
 package com.shen.example.di;
 
 import com.shen.example.JuiceShop;
-import dagger.Component;
+import dagger.Subcomponent;
 
 @OtherScop
-@Component(dependencies = {FruitComponent.class}, modules = {JuiceModule.class})
+@Subcomponent(modules = {JuiceModule.class})
 public interface JuiceComponent {
     JuiceShop inject();
+
+    @Subcomponent.Builder
+    interface Builder {
+        JuiceComponent build();
+    }
 }

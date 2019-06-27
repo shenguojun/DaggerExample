@@ -2,14 +2,18 @@ package com.shen.example;
 
 
 import com.shen.example.di.FruitType;
+import com.shen.example.di.JuiceComponent;
 import com.shen.example.fruit.Fruit;
 
 import javax.inject.Inject;
+import javax.inject.Provider;
 
 public class FruitShop {
+    private Provider<JuiceComponent.Builder> juiceComponentProvider;
 
     @Inject
-    public FruitShop() {
+    public FruitShop(Provider<JuiceComponent.Builder> juiceComponentProvider) {
+        this.juiceComponentProvider = juiceComponentProvider;
     }
 
 //    @Inject
@@ -43,5 +47,10 @@ public class FruitShop {
 //        }
 //        return sb.toString();
 //    }
+
+    public String juice() {
+        JuiceShop juiceShop = juiceComponentProvider.get().build().inject();
+        return juiceShop.getJuice();
+    }
 
 }

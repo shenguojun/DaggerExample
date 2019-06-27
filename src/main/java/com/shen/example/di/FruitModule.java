@@ -6,7 +6,7 @@ import com.shen.example.fruit.Orange;
 import dagger.Binds;
 import dagger.Module;
 
-@Module
+@Module(subcomponents = {JuiceComponent.class})
 abstract public  class FruitModule {
 
     @Binds @FruitType("apple")
