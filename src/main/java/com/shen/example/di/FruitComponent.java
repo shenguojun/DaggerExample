@@ -1,5 +1,6 @@
 package com.shen.example.di;
 
+import com.google.inject.internal.Nullable;
 import com.shen.example.FruitShop;
 import dagger.BindsInstance;
 import dagger.Component;
@@ -14,7 +15,7 @@ public interface FruitComponent {
     @Component.Builder
     interface Builder {
         @BindsInstance
-        Builder cusPearName(@Name String name);
+        Builder cusPearName(@Nullable @Name String name);
         FruitComponent build();
     }
 
