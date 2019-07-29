@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7793a4a-a7b7-4a7d-b4df-6c7d30805ccc" name="Default" comment="">
+    <list default="true" id="a7793a4a-a7b7-4a7d-b4df-6c7d30805ccc" name="Default" comment="feat: module subComponent sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="115">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,10 +60,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="265">
+              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.19/dagger-2.19-sources.jar!/dagger/Lazy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="40" />
+              <folding>
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1172#1202#0" expanded="true" />
+                <element signature="e#1303#1481#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1904#1905#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#2090#2091#0" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,11 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -102,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="69">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -133,6 +157,7 @@
       <find>@Singleton</find>
       <find>Subcomponent</find>
       <find>newFruitShop</find>
+      <find>JuiceComponentImpl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/ProjectModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java" />
       </list>
     </option>
@@ -211,6 +236,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="-1050" />
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -460,7 +486,7 @@
       <workItem from="1561082991125" duration="557000" />
       <workItem from="1561097876821" duration="4403000" />
       <workItem from="1561373975289" duration="27000" />
-      <workItem from="1561603872538" duration="2765000" />
+      <workItem from="1561603872538" duration="5478000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update some class file">
       <created>1526823750592</created>
@@ -476,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526827466357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: module subComponent sample">
+      <created>1561616765226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561616765226</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63269000" />
+    <option name="totallyTimeSpent" value="65982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,6 +526,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3384521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -508,9 +542,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893157" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49938574" weight="0.28721175" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49938574" weight="0.28720084" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5257985" side_tool="true" weight="0.32882413" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32882413" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32882413" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47420147" weight="0.32882413" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -527,7 +561,7 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="SciView" order="9" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" x="0" y="0" width="740" height="850" id="Documentation" order="11" weight="0.497543" />
+      <window_info anchor="right" x="0" y="0" width="740" height="850" id="Documentation" order="11" visible="true" weight="0.497543" />
       <window_info anchor="right" id="Flutter Inspector" order="12" />
       <window_info anchor="right" id="Flutter Outline" order="13" />
     </layout>
@@ -579,7 +613,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="chore: update some class file" />
     <MESSAGE value="feat: add usage for @BindsInstance &amp; @Component.Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add usage for @BindsInstance &amp; @Component.Builder" />
+    <MESSAGE value="feat: module subComponent sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: module subComponent sample" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -666,13 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.19/dagger-2.19-sources.jar!/dagger/Lazy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -930,18 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/javax/inject/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -949,20 +965,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="115">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/JuiceComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -973,23 +989,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/shen/example/di/DaggerFruitComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="40" />
+          <folding>
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1172#1202#0" expanded="true" />
+            <element signature="e#1303#1481#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/FruitShop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="265">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shen/example/di/FruitComponent.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.19/dagger-2.19-sources.jar!/dagger/Lazy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="604">
+          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
         </state>
       </provider>
     </entry>
