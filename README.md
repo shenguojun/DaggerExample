@@ -3,4 +3,4 @@ Since annotations in dagger2 are hard to understand, this project try to use as 
 
 Hope this small project can help you understand dagger easier. Have fun.
 
-Detail please check：https://www.jianshu.com/p/6a65b9d33fea（only Chinese version currently）
+Check here for detail：https://www.jianshu.com/p/6a65b9d33fea （only Chinese version currently）.
